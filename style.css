@@ -1,0 +1,555 @@
+body {
+  font-family: "Nunito", Arial, sans-serif;
+  background-color: #e6fbff;
+}
+
+.navbar {
+  background-color: #03045e;
+  position: fixed;
+  top: 0;
+  min-width: 100%;
+  z-index: 100;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-item {
+  margin: 20px 10px;
+}
+
+.nav-link:last-child {
+  margin-right: 0;
+}
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  font-size: 1.125rem;
+}
+
+.about-me {
+  margin-top: 160px;
+  padding: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.about-me img {
+  max-width: 160px;
+  max-height: 160px;
+  min-width: 160px;
+  min-height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #03045e;
+  margin: 0 auto;
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #03045e;
+  font-weight: bold;
+}
+
+h1::after {
+  content: " ";
+  border-top: 2px solid #03045e;
+  width: 180px;
+  background-color: #03045e;
+  display: block;
+  margin: 4px auto 0 auto;
+}
+
+.about-me .esq h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about-me .meio {
+  margin-top: 28px;
+}
+
+.about-me .dir {
+  margin-top: 28px;
+}
+.about-me .esq h3 {
+  text-align: center;
+}
+
+.about-me ul li span {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #03045e;
+}
+
+.about-me ul li h5 {
+  display: inline-block;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .nav-item {
+    margin: 10px 10px;
+  }
+  .about-me ul {
+    padding-left: 3px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-me h3,
+  h4 {
+    width: 100%;
+  }
+}
+
+.skills {
+  margin-top: 60px;
+  padding: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.skills h2 {
+  padding-left: 45px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #023e8a;
+}
+
+.skills ul {
+  padding-left: 45px;
+}
+
+.skills ul li {
+  list-style: none;
+}
+
+.skills ul li h4 {
+  text-align: start;
+}
+
+.skills .fa-html5 {
+  color: #ea5d24;
+  font-size: 30px;
+}
+
+.skills .fa-css3-alt {
+  color: #026db6;
+  font-size: 30px;
+}
+
+.skills .fa-wordpress {
+  color: #136d94;
+  font-size: 30px;
+}
+
+.skills .fa-bootstrap {
+  color: #7952b3;
+  font-size: 30px;
+}
+
+.skills .flutter-logo {
+  color: #7952b3;
+  max-height: 30px;
+}
+
+.skills .fa-node-js {
+  color: #8bbf3d;
+  font-size: 30px;
+}
+
+.skills .fa-react {
+  color: #19b5e8;
+  font-size: 30px;
+}
+
+.skills .fa-laravel {
+  color: #f72c1f;
+  font-size: 30px;
+}
+
+.skills .fa-docker {
+  color: #00689f;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .skills h2 {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .skills ul {
+    padding-left: 35%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .skills ul {
+    padding-left: 25%;
+  }
+}
+
+.education {
+  margin-top: 60px;
+  padding: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.education h1::after {
+  content: " ";
+  border-top: 2px solid #03045e;
+  width: 500px;
+  background-color: #03045e;
+  display: block;
+  margin: 4px auto 0 auto;
+}
+
+.education h2 {
+  color: #023e8a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.education h3 {
+  color: #0077b6;
+}
+.education ul li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.education .esq {
+  border-right: 1px solid #03045e;
+}
+
+.education .dir {
+  border-left: 1px solid #03045e;
+}
+
+.education .byron-logo {
+  color: #7952b3;
+  max-height: 30px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+.education ul li img {
+  text-indent: 0px;
+}
+
+.education ul li p {
+  text-indent: 20px;
+  text-align: left;
+}
+
+.education ul li a {
+  color: #0096c7;
+}
+
+.education ul li span {
+  font-size: 1.125rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #555;
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .education h2 {
+    margin-top: 30px;
+  }
+
+  .education h1::after {
+    width: 300px;
+  }
+}
+
+.portfolio {
+  margin-top: 60px;
+  padding: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.portfolio .col-md-5 {
+  padding: 0;
+}
+
+.portfolio .esq {
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.portfolio .dir {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.portfolio h1 {
+  margin-bottom: 60px;
+}
+
+.portfolio h1::after {
+  content: " ";
+  border-top: 2px solid #03045e;
+  width: 250px;
+  background-color: #03045e;
+  display: block;
+  margin: 4px auto 0 auto;
+}
+
+.portfolio ul li {
+  min-height: 500px;
+  min-width: 500px;
+  max-height: 500px;
+  max-width: 500px;
+  list-style: none;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  margin-bottom: 20px;
+  background-color: #888;
+}
+
+.portfolio img {
+  min-height: 500px;
+  min-width: 500px;
+  max-height: 500px;
+  max-width: 500px;
+  object-fit: contain;
+  display: block;
+}
+
+.portfolio .mobile-photo {
+  object-fit: contain;
+}
+
+.portfolio .project-explanation {
+  padding: 20px;
+}
+
+.portfolio h3 {
+  font-weight: bold;
+  color: #023e8a;
+}
+
+.portfolio ul li:hover .mascara {
+  min-height: 500px;
+  min-width: 500px;
+  max-height: 500px;
+  max-width: 500px;
+  position: absolute;
+  background: rgba(50, 50, 50, 0.8);
+  z-index: 2;
+  color: #fff;
+  padding: 40px;
+}
+
+.portfolio ul li h2,
+.portfolio ul li p {
+  display: none;
+}
+
+.portfolio ul li:hover .mascara h2 {
+  display: block;
+  font-weight: bold;
+}
+.portfolio ul li:hover .mascara p {
+  display: block;
+  font-size: 1.2rem;
+}
+
+.portfolio ul li:hover .mascara p span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.portfolio span.cancelled {
+  color: red;
+}
+.portfolio span.finished {
+  color: lightgreen;
+}
+
+.portfolio span.pending {
+  color: yellow;
+}
+
+@media only screen and (max-width: 1200px) {
+  .portfolio ul li {
+    min-height: 350px;
+    min-width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+  }
+
+  .portfolio img {
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+  }
+
+  .portfolio ul li:hover .mascara {
+    min-height: 400px;
+    min-width: 400px;
+    max-height: 400px;
+    max-width: 400px;
+    padding: 25px;
+  }
+
+  .portfolio ul li:hover .mascara h2 {
+    font-size: 1.5rem;
+  }
+  .portfolio ul li:hover .mascara p {
+    font-size: 1.125rem;
+  }
+
+  .portfolio ul li:hover .mascara p span {
+    font-size: 1.125rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .portfolio .esq {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .portfolio .dir {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .portfolio ul li {
+    min-height: 350px;
+    min-width: 350px;
+    max-height: 350px;
+    max-width: 350px;
+  }
+
+  .portfolio img {
+    min-height: 350px;
+    min-width: 350px;
+    max-height: 350px;
+    max-width: 350px;
+  }
+
+  .portfolio ul li:hover .mascara {
+    min-height: 350px;
+    min-width: 350px;
+    max-height: 350px;
+    max-width: 350px;
+    padding: 10px;
+  }
+
+  .portfolio ul li:hover .mascara h2 {
+    font-size: 1.25rem;
+  }
+  .portfolio ul li:hover .mascara p {
+    font-size: 1rem;
+  }
+
+  .portfolio ul li:hover .mascara p span {
+    font-size: 1.125rem;
+  }
+}
+
+.contact {
+  margin-top: 60px;
+  padding: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact h1 {
+  margin-bottom: 60px;
+}
+
+.contact h1::after {
+  content: " ";
+  border-top: 2px solid #03045e;
+  width: 300px;
+  background-color: #03045e;
+  display: block;
+  margin: 4px auto 0 auto;
+}
+
+.contact ul {
+  padding-left: 0;
+}
+.contact ul li {
+  list-style: none;
+}
+
+.contact ul li span {
+  display: inline-block;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #03045e;
+}
+
+.contact ul li h5 {
+  display: inline-block;
+  margin: 10px;
+}
+
+.contact h2 {
+  font-weight: bold;
+  color: #023e8a;
+}
+
+.contact ul li a i {
+  font-size: 48px;
+  margin-top: 10px;
+  margin-right: 14px;
+  color: #023e8a;
+}
+
+@media only screen and (max-width: 992px) {
+  .contact .col-md-2 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact .col-8 {
+    margin: 0 auto;
+  }
+}
+
+footer {
+  background-color: #03045e;
+  padding: 20px;
+  text-align: center;
+}
+
+footer b {
+  text-align: center;
+  color: #fff;
+}
