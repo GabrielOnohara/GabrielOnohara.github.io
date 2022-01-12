@@ -156,6 +156,11 @@ h1::after {
   font-size: 30px;
 }
 
+.skills .fa-js {
+  color: #f7e018;
+  font-size: 30px;
+}
+
 .skills .fa-wordpress {
   color: #136d94;
   font-size: 30px;
@@ -168,6 +173,13 @@ h1::after {
 
 .skills .flutter-logo {
   color: #7952b3;
+  max-height: 30px;
+}
+
+.skills .mongo-img {
+  max-height: 30px;
+}
+.skills .nextjs-img {
   max-height: 30px;
 }
 
