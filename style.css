@@ -179,6 +179,11 @@ h1::after {
 .skills .mongo-img {
   max-height: 30px;
 }
+
+.skills .firebase-img {
+  max-height: 30px;
+}
+
 .skills .nextjs-img {
   max-height: 30px;
 }
@@ -564,4 +569,8 @@ footer {
 footer b {
   text-align: center;
   color: #fff;
+}
+
+.contatoList li:nth-child(3) {
+  text-align: center;
 }
