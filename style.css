@@ -32,8 +32,14 @@ body {
   font-size: 1.125rem;
 }
 
+#google_translate_element {
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+
 .about-me {
-  margin-top: 160px;
+  margin-top: 40px;
   padding: 40px;
   margin-bottom: 40px;
   background-color: #fff;
@@ -63,7 +69,7 @@ h1 {
 h1::after {
   content: " ";
   border-top: 2px solid #03045e;
-  width: 180px;
+  width: 220px;
   background-color: #03045e;
   display: block;
   margin: 4px auto 0 auto;
@@ -299,7 +305,11 @@ h1::after {
     width: 300px;
   }
 }
-
+@media only screen and (max-width: 450px) {
+  .education .byron-logo {
+    max-width: 200px;
+  }
+}
 .portfolio {
   margin-top: 60px;
   padding: 40px;
@@ -495,6 +505,53 @@ h1::after {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .portfolio ul li {
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 300px;
+  }
+
+  .portfolio img {
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 300px;
+  }
+
+  .portfolio ul li:hover .mascara {
+    min-height: 300px;
+    min-width: 300px;
+    max-height: 300px;
+    max-width: 300px;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .portfolio ul li {
+    min-height: 250px;
+    min-width: 250px;
+    max-height: 250px;
+    max-width: 250px;
+  }
+
+  .portfolio img {
+    min-height: 250px;
+    min-width: 250px;
+    max-height: 250px;
+    max-width: 250px;
+  }
+
+  .portfolio ul li:hover .mascara {
+    min-height: 250px;
+    min-width: 250px;
+    max-height: 250px;
+    max-width: 250px;
+    padding: 10px;
+  }
+}
+
 .contact {
   margin-top: 60px;
   padding: 40px;
@@ -511,7 +568,7 @@ h1::after {
 .contact h1::after {
   content: " ";
   border-top: 2px solid #03045e;
-  width: 300px;
+  width: 360px;
   background-color: #03045e;
   display: block;
   margin: 4px auto 0 auto;
@@ -557,6 +614,12 @@ h1::after {
 @media only screen and (max-width: 768px) {
   .contact .col-8 {
     margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact h1::after {
+    width: 280px;
   }
 }
 
