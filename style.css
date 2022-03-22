@@ -272,8 +272,13 @@ h1::after {
 
 .education .byron-logo {
   color: #7952b3;
-  max-height: 30px;
+  max-height: 40px;
   object-fit: cover;
+  margin-bottom: 15px;
+}
+.education .autoponia-logo {
+  color: #7952b3;
+
   margin-bottom: 15px;
 }
 .education ul li img {
@@ -390,6 +395,7 @@ h1::after {
   z-index: 2;
   color: #fff;
   padding: 40px;
+  transition: 1.5s;
 }
 
 .portfolio ul li h2,
