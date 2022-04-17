@@ -301,6 +301,18 @@ h1::after {
   color: #555;
   font-weight: bold;
 }
+@media only screen and (max-width: 991px) {
+.education .byron-logo {
+  max-width: 240px;
+  
+
+}
+.education .autoponia-logo {
+
+  max-width: 240px;
+  margin-bottom: 15px;
+}
+}
 @media only screen and (max-width: 768px) {
   .education h2 {
     margin-top: 30px;
@@ -309,6 +321,8 @@ h1::after {
   .education h1::after {
     width: 300px;
   }
+
+ 
 }
 @media only screen and (max-width: 450px) {
   .education .byron-logo {
