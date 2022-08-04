@@ -59,6 +59,14 @@ body {
   display: block;
 }
 
+.about-me li{
+  list-style-type: none;
+}
+
+.about-me li:nth-child(3) h5{
+  word-break: break-all;
+}
+
 h1 {
   text-align: center;
   margin-bottom: 30px;
@@ -623,6 +631,10 @@ h1::after {
   margin-top: 10px;
   margin-right: 14px;
   color: #023e8a;
+}
+
+.contact li h5{
+  word-break: break-all;
 }
 
 @media only screen and (max-width: 992px) {
