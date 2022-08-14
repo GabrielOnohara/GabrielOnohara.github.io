@@ -65,6 +65,7 @@ body {
 
 .about-me li:nth-child(3) h5{
   word-break: break-all;
+  margin-left: 5px;
 }
 
 h1 {
