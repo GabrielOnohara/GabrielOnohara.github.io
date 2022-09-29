@@ -149,9 +149,9 @@ h1::after {
   color: #023e8a;
 }
 
-.skills ul {
+/* .skills ul {
   padding-left: 45px;
-}
+} */
 
 .skills ul li {
   list-style: none;
@@ -202,6 +202,9 @@ h1::after {
 .skills .nextjs-img {
   max-height: 30px;
 }
+.skills .stack-img {
+  max-height: 30px;
+}
 
 .skills .fa-node-js {
   color: #8bbf3d;
@@ -229,15 +232,15 @@ h1::after {
     text-align: center;
   }
 
-  .skills ul {
+  /* .skills ul {
     padding-left: 35%;
-  }
+  } */
 }
 
 @media only screen and (max-width: 500px) {
-  .skills ul {
+  /* .skills ul {
     padding-left: 25%;
-  }
+  } */
 }
 
 .education {
@@ -670,3 +673,18 @@ footer b {
 .contatoList li:nth-child(3) {
   text-align: center;
 }
+
+.listastacks{
+  display: flex;
+  overflow-x: scroll;
+}
+
+.listastacks li{
+  margin-right: 20px;
+}
+
+.listastacks li img,i{
+  display: block;
+}
+
+
